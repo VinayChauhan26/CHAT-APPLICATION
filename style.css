@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b2b0b0;
+}
+
+h1{
+    color:#1d221d;
+    font-size: 36px;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+#messages li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+#username {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
